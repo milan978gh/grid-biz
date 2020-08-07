@@ -148,3 +148,12 @@ img{
         box-shadow: $shadow;
     }
 }
+
+// footer
+footer{
+    color: $light;
+    background: $dark;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
