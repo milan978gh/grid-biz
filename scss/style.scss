@@ -128,3 +128,12 @@ img{
 }
 
 // info
+.info{
+    background: $primary;
+    box-shadow: $shadow;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+
