@@ -37,3 +37,27 @@ img{
     grid-gap: 20px;
 }
 
+// navigation
+.main-nav ul{
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    grid-template-columns: repeat(4, 1fr);
+
+    li a{
+        display: block;
+        color: $dark;
+        background: $primary;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        padding: .8rem;
+        box-shadow: $shadow;
+
+        &:hover{
+            color: $light;
+            background: $dark;
+        }
+    }
+}
+
